@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo:wght@200..1000&display=swap");
+
+:root {
+    --mainColor: #ff9f1c;
+    --secondaryColor: #696f72;
+    --thirdColor: #cbf3f0;
+}
+
+body {
+    font-family: cairo !important;
+}
+
+.img-slider {
+    width: 100px !important;
+    height: 100px !important;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 1px dashed var(--mainColor) !important;
+}
+
+.carousel-images {
+    position: absolute !important;
+    bottom: 140 !important;
+    right: -170px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 18px;
+}
+
+.add-btn button {
+    font-size: 14px !important;
+    background-color: var(--mainColor);
+}
+
+.add-btn button:hover {
+    font-size: 14px !important;
+    background-color: var(--thirdColor);
+}
+
+.review-title {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Almarai;
+    color: var(--mainColor);
+}
+
+.review-section {
+    border: 1px solid var(--mainColor);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.title-ship {
+    margin-bottom: 30px;
+    color: var(--thirdColor) !important;
+}
+
+.p-product {
+    color: white !important;
+}
+.tab-pane button {
+    background-color: var(--mainColor);
+    margin-top: 10px;
+}
