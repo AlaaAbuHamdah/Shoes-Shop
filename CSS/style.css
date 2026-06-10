@@ -549,10 +549,12 @@ footer .row:first-child {
     position: absolute !important;
     left: 0 !important;
 }
- .dd {
-    height: 500px !important;
-   
- }
- .ship {
-    height: 350px !important;
- }
+@media (min-width: 768px) {
+    .dd {
+        min-height: 500px;
+    }
+
+    .ship {
+        min-height: 350px;
+    }
+}
